@@ -66,17 +66,21 @@ class Graph:
 
 g = Graph(5)
 
-g.add_edge(0, 1, 2)
+g.add_edge("A", "B", 4)
 
-g.add_edge(0, 2, 4)
+g.add_edge("A", "C", 2)
 
-g.add_edge(1, 3, 2)
+g.add_edge("B", "c", 3)
 
-g.add_edge(2, 4, 3)
+g.add_edge("C", "B", 1)
 
-g.add_edge(2, 3, 4)
+g.add_edge("B", "E", 3)
 
-g.add_edge(4, 3, -5)
+g.add_edge("E", "D", -5)
+
+g.add_edge("B", "D", 2)
+
+g.add_edge("C", "D", 4)
 
 
 
