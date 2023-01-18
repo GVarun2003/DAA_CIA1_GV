@@ -65,22 +65,22 @@ class Graph:
 
 
 g = Graph(5)
+#A=1;B=2;C=3;D=4;E=5 (the vertices as numbered)
+g.add_edge(1, 2, 4)
 
-g.add_edge("A", "B", 4)
+g.add_edge(1, 3, 2)
 
-g.add_edge("A", "C", 2)
+g.add_edge(2, 3, 3)
 
-g.add_edge("B", "c", 3)
+g.add_edge(3, 2, 1)
 
-g.add_edge("C", "B", 1)
+g.add_edge(2, 5, 3)
 
-g.add_edge("B", "E", 3)
+g.add_edge(5, 4, -5)
 
-g.add_edge("E", "D", -5)
+g.add_edge(2, 4, 2)
 
-g.add_edge("B", "D", 2)
-
-g.add_edge("C", "D", 4)
+g.add_edge(3, 4, 4)
 
 
 
