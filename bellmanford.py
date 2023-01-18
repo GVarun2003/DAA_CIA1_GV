@@ -1,9 +1,9 @@
 def bellmanford(m, s):
     n, inf = len(m), float("inf")
     v = range(n)
-    dist = [inf for _ in v]
+    dist = [inf for x in v]
     dist[s] = 0
-    for _ in range(n - 1):
+    for x in range(n - 1):
         for i in v:
             for j in v:
                 w = m[i][j]
