@@ -9,10 +9,10 @@ Otherwise the array of shortest distances from source to all other nodes is retu
 the output observed:
 
 Vertex Distance from Source (0)
-0	-	0
-1	-	3
-2	-	2
-3	-	1
-4	-	6
+0	-	0,
+1	-	3,
+2	-	2,
+3	-	1,
+4	-	6.
 
 hence the following problem has been solved!
